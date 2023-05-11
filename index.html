@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu personagem - sonic batalha</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />    
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">       
+    
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">
+                Character Select
+            </h1>            
+        </header>
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./src/imagens/sonic.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
+                <div class="nome">
+                    <h2 id="nome-jogador-1">sonic</h2>
+                </div>
+            </div>
+
+             <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="sonic" data-name="Sonic">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Sonic.jpg" alt="Personagem Sonic">
+                </li>
+
+                <li class="personagem" id="silver" data-name="Silver">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/2020 Icon Silver (Legacy).jpg" alt="Personagem Silver">
+                </li>
+
+                <li class="personagem" id="rouge" data-name="Rouge">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/2020 Icon Rouge.jpg" alt="Personagem Rouge">
+                </li>
+
+                <li class="personagem" id="tails" data-name="Tails">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/2020 Icon Tails.jpg" alt="Personagem Tails">
+                </li>
+
+                <li class="personagem" id="amy" data-name="Amy">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/2020 Icon Amy (HammerHappy).jpg" alt="Personagem Amy">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="shadow" data-name ="Shadow">
+                    <span class="tag">2P</span>
+                    <img src="./src/imagens/2020-Icon-Shadow-_Legacy-Aura_.jpg" alt="Personagem Shadow">
+                </li>
+
+                <li class="personagem" id="mephiles" data-name="Mephiles">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/2020 Icon Mephiles (Crypt).jpg" alt="Personagem Mephiles">
+                </li>
+
+                <li class="personagem" id="ifinite" data-name="Infinite">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/2020 Icon Infinite.jpg" alt="Personagem Infinite">
+                </li>
+
+                <li class="personagem" id="emerl" data-name="Emerl">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/2020 Icon Emerl.jpg" alt="Personagem Emerl">
+                </li>
+            </ul>
+
+            <div class="personagem-grande personagem-jogador-2">
+                <img src="./src/imagens/shadow.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
+                <div class="nome">
+                    <h2>shadow</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
