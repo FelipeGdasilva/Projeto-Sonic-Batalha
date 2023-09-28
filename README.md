@@ -16,5 +16,5 @@ O projeto é uma seleção de personagems do sonic
  ```
  Acesse a pasta do projeto
  ```
- cd projeto-sonic
+ cd projeto-sonic-batalha
  
